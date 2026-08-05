@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(109, 173, 173);
+            margin: 0px;
+            
+        }
+        header {
+            width: 500px;
+            background-color:white;
+            padding: 15px;
+            margin: 15px;
+          
+            
+        }
+        h1 {
+            box-shadow: 6px 2px 3px black;
+        }
+        nav {
+           background-color: rgba(0, 0, 0, 0.445);
+           padding: 10px; 
+          
+           
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            box-shadow: 5px 3px 1px black;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        
+        main{
+            background-color: rgba(240, 248, 255, 0.521);
+            padding: 15px;
+            margin: 15px;
+            border-radius: 10PX 30PX 10PX 30PX;
+            box-shadow: 10px 10px 10px 10px black
+        }
+        footer{
+            background-color: rgba(137, 43, 226, 0.274);
+            color: black;
+            text-align: center;
+            padding: 1px;
+        }
+        article{
+            background-color: rgba(128, 128, 128, 0.26);
+            padding: 5px;
+        }
+        article > aside {
+           background-color: bisque;
+        }
+        div#bola {
+           height: 100px; 
+           width: 100px;
+           margin: 20px;
+           background-color: aqua;
+           border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+          <a href="#">Link</a>  
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+          <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"> 
+            <p> Esportes Políticas Tecnologia</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2> A arte de viver!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora similique quaerat laboriosam iusto asperiores enim veritatis quia non sequi molestias inventore eum quisquam suscipit quod nobis quasi harum, excepturi dicta.</p>
+            <aside>
+                <p>Notícias citadas por wemerson</p>
+            </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+       <p>Desenvolvido por wemerson</p>
+    </footer>
+    <div id="bola">
+    </div>
+    
+</body>
+</html>
