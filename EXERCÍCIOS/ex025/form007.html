@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulas</title>
+</head>
+<body>
+    <h1>Exemplos</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="lest">Estado</label>
+            <select name="estado" id="lest">
+                <option value="PB"> Paraiba</option>
+                <option value="MG" selected> Minas Gerais</option>
+                <option value="Sp"> São Paulo</option>
+                <option value="BH"> Bahia</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Enviar ">
+            <input type="reset" value="Limpar">
+        </p>
+        <p>
+            <label for="profissão"> Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lisprof">
+            <datalist id="lisprof">
+                <option value="Prof"> Professor</option>
+                <option value="Pad"> Padeiro</option>
+                <option value="Cant"> Cantor</option>
+
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label>
+            <textarea name="mensagem" id="imsg"></textarea>
+        </p>
+    </form>
+    
+</body>
+</html>
